@@ -40,10 +40,10 @@ ENABLE_GCCONLY := true
 TARGET_KERNEL_CONFIG := titan_defconfig
 
 #Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.2-uber/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 # Rom Toolchain
-#TARGET_GCC_VERSION_EXP := 5.2-uber
+#TARGET_GCC_VERSION_EXP := 5.3-uber
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10444800
